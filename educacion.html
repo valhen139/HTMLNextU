@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Curriculum Oscar Valencia</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="Examen NextU HTML">
+    <meta name="description" content="Curriculum Oscar Valencia">
+    <meta name="author" content="Oscar Daniel Valencia Henzler">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+  </head>
+  <body>
+    <header>
+      <svg width="100" height="100">
+        <image xlink:href="imagenes/logo.svg" height="100" width="100"/>
+      </svg>
+      <h1>Curriculum</h1>
+      <h2>Datos Personales</h2>
+      <h3>Apellidos: Valencia Henzler</h3>
+      <h3>Nombres: Oscar Daniel</h3>
+      <h3>Fecha Nac.: 13/09/1976</h3>
+      <h3>Lugar de Nac.: Perú</h3>
+      <nav>
+        <a href="index.html">Perfil</a> |
+        <a href="educacion.html">Educación</a> |
+        <a href="experiencia.html">Experencia</a>
+      </nav>
+    </header>
+      <h2>Experiencia</h2>
+      <table border="1">
+        <tr>
+          <td><strong>Año</strong></td>
+          <td><strong>Institucion</strong></td>
+          <td><strong>Lugar</strong></td>
+          <td><strong>¿Culminó?</strong></td>
+        </tr>
+        <tr>
+          <td>2003</td>
+          <td>PUCP</td>
+          <td>Lima</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>Centrum</td>
+          <td>Lima</td>
+          <td>Aun no</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>NextU</td>
+          <td>Online</td>
+          <td>Si</td>
+        </tr>
+      </table>
+      <form>
+        <fieldset>
+          <legend><h3>Agregar Estudios</h3></legend>
+        <p>
+          <lable for="anio">Año</lable>
+          <select id="anio">
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+          </select>
+        </p>
+        <p>
+          <lable for="instit">Institución: </lable>
+          <input type="tect" id="instit">
+        </p>
+        <p>
+          <lable for="lugar">Lugar:</lable>
+          <textarea id="lugar" rows="10" cols="50"></textarea>
+        </p>
+        <p>
+    			<input type="submit" value="Registrar">
+    		</p>
+        </fieldset>
+      </form>
+    <footer>
+      <h2>Contacto</h2>
+      <a href="mailto:oscar.valencia@pucp.pe">oscar.valencia@pucp.pe</a>
+      <p>Cel: 991934704</p>
+      <a href="https://www.linkedin.com/in/odvh/">LinkedIn</a>
+    </footer>
+  </body>
+</html>
